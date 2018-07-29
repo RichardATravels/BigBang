@@ -1,0 +1,274 @@
+* {
+    margin:0;
+    padding:0;
+    line-height: 1.6;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    font-size: 110%;
+}
+
+div nav a {
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Arial', 'sans-serif';
+}
+
+#main_pic {
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    border: 4px white solid;
+    margin-top: 40px;
+    
+}
+
+#welcome_section {
+    text-align: center;
+    background-image: url('../img/background2.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner {
+    color: black;
+}
+
+#title {
+    font-size: 400%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    padding-top: 50px;
+}
+
+#subtitle {
+    color: white;
+    font-size: 120%;
+}
+
+#about {
+    
+    height: 50%;
+    margin: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+#work_title {
+    text-align: center;
+    font-size: 300%;
+}
+
+
+#contact {
+    padding-top: 5%;
+    height: 50%;
+    margin: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+
+#location {
+    height: 50%;
+    margin: 5%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+
+
+#about_head:hover, #gallery_head:hover, #main_head:hover, #location_head:hover, #work_head:hover, #contact_head:hover, #pricing_head:hover {
+    background-color: #726A68;
+    transition: 0.5s;
+}
+
+
+
+.fab {
+    font-size: 300%;
+}
+
+.fa-facebook {
+    color: #006599;
+}
+
+.contact_me {
+    padding-bottom: 5%;
+}
+
+
+.contact_head {
+    font-size: 200%;
+}
+
+.gallery {
+    margin: 10px 50px;
+    
+}
+
+.gallery img {
+    width: 330px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 0.7s;
+    
+}
+
+.three_images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+#div_facebook_feed {
+    text-align: right;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+.coach_joe {
+    width: 300px;
+}
+
+.center_title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.flex_gallery {
+    margin: .5vw;
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+
+.flex_gallery div {
+    box-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+
+}
+
+
+.flex_gallery div img {
+    width: 100%;
+    height: auto;
+}
+
+.vertical_align {
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+    nav {
+        display: none;
+    }
+
+    #title {
+        padding-top: 0;
+    }
+
+    #work_title {
+        font-size: 150%;
+    }
+
+    #welcome_section {
+        background-size: cover;
+    }
+
+    .gallery img {
+        filter: grayscale(0%);
+        padding: 0px;
+        width: 260px;
+    }
+
+
+    #facebook_feed {
+        display: none;
+
+    }
+
+    #map {
+        width: 60vw;
+        height: 60vh;
+        display: center;
+    }
+
+    #coach_joe_pic2 {
+        display: none;
+    }
+
+
+    .wrapper3 {
+        display: block;
+    }
+
+    #about, #contact, #location{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .flex_gallery div {
+        margin: 0;
+    
+    }
+
+    .flex_gallery {
+        padding: 0;
+    }
+
+    #coach_section {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+
+
+}
+
